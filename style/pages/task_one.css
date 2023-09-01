@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
+.header__menu {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.header__menu li a {
+  text-decoration: none;
+  color: black;
+}
+.header__menu li a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.hero__container {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 2em;
+  padding: 16px 24px 16px 24px;
+}
+.hero__container div {
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.hero__container div img {
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+}
+h2 {
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-top: 10px;
+  text-align: center;
+  border-top: 2px solid black;
+  font-weight: 600;
+  font-size: 24px;
+}
+@media screen and (max-width: 1010px) {
+  .hero__container {
+    margin-left: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 799px) {
+  .hero__container {
+    margin-right: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 620px) {
+  .hero__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 620px) {
+  .hero__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

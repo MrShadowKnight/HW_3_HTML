@@ -1,0 +1,37 @@
+.header__menu {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.header__menu li a {
+  text-decoration: none;
+  color: black;
+}
+.header__menu li a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.header__submenu li {
+  display: flex;
+  align-items: center;
+  background-color: rgb(153, 153, 153);
+  width: 200px;
+}
+.header__submenu {
+  display: flex;
+  align-items: center;
+}
+.header__submenu span {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header__submenu img {
+  height: 50px;
+  width: 50px;
+}
+.header__submenu li:hover {
+  background-color: rgb(130, 130, 130);
+}
