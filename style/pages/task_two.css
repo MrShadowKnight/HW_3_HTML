@@ -13,25 +13,26 @@
   text-decoration: underline;
   transition: 0.4s;
 }
-.header__submenu li {
+.header__sidebar li {
   display: flex;
   align-items: center;
   background-color: rgb(153, 153, 153);
   width: 200px;
 }
-.header__submenu {
+.header__sidebar {
   display: flex;
   align-items: center;
+  margin-left: 50px;
 }
-.header__submenu span {
+.header__sidebar span {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
 }
-.header__submenu img {
+.header__sidebar img {
   height: 50px;
   width: 50px;
 }
-.header__submenu li:hover {
+.header__sidebar li:hover {
   background-color: rgb(130, 130, 130);
 }

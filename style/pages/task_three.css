@@ -104,9 +104,11 @@
   background-color: rgb(249, 172, 255);
   grid-row-start: 2;
   grid-row-end: 4;
+  padding: 10px 30px;
 }
 .section2 {
   background-color: rgb(249, 172, 255);
   grid-row-start: 4;
   grid-row-end: 6;
+  padding: 10px 30px;
 }

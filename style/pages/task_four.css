@@ -20,12 +20,18 @@
 .hero__grid {
   margin-right: 200px;
   margin-left: 50px;
-  color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 400px;
   grid-row-gap: 2px;
   padding: 20px 40px 20px 40px;
+}
+.hero__grid li a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero__grid li a:hover {
+  text-decoration: underline;
 }
 .footer__title {
   color: white;
@@ -50,19 +56,27 @@ li {
   align-items: center;
   justify-content: center;
 }
-.hero__img img {
+.hero__img_social {
   margin-left: 20px;
   width: 46px;
   height: 46px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: 0.6s;
+  transition: 0.4s;
   cursor: pointer;
 }
-.hero__img img:hover {
-  opacity: 0;
-  transition: 0.6;
+.hero__img_social.insta:hover {
+  background-image: url(/img/insta.png) !important;
+}
+.hero__img_social.fb:hover {
+  background-image: url(/img/fb.png) !important;
+}
+.hero__img_social.yt:hover {
+  background-image: url(/img/youtube.png) !important;
+}
+.hero__img_social:hover {
+  transition: 0.4s;
 }
 @media screen and (max-width: 1180px) {
   .hero__grid {
