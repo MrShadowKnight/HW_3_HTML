@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style/style_reset.css" />
     <link rel="stylesheet" href="/style/pages/task_one.css" />
   </head>
@@ -11,29 +17,47 @@
     <header class="header">
       <div class="header__menu">
         <ul>
-          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html">Home</a> / <a href="#">Articles</a></li>
         </ul>
       </div>
-      <h1>What do I have in my fridge?</h1>
     </header>
     <main>
       <section class="hero">
-        <div class="hero__container">
-          <div><img src="/img/pepper.png" /><br />Pepper</div>
-          <div><img src="/img/appe.png" /><br />Apple</div>
-          <div><img src="/img/cheese.png" /><br />Cheese</div>
-          <div><img src="/img/corn.png" /><br />Corn</div>
-          <div><img src="/img/mushroom.png" /><br />Mushroom</div>
-          <div><img src="/img/garlic.png" /><br />Garlic</div>
-          <div><img src="/img/beef.png" /><br />Beef</div>
-          <div><img src="/img/fish.png" /><br />Fish</div>
-          <div><img src="/img/eggs.png" /><br />Eggs</div>
-          <div><img src="/img/coriender.png" /><br />Coriander</div>
+        <div class="hero__content">
+          The Difference Between<br />
+          Responsive and<br />
+          Adaotive Design
         </div>
       </section>
     </main>
-    <footer>
-      <h2>... thet's all ...</h2>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer__content col-10">
+            <img class="footer__content_img col-2" src="/img/account.png" />
+            <div class="footer__content_mobile col-4">
+              <div class="footer__content_item col-2">
+                <h2>Author</h2>
+                <h1>Geoff Graham</h1>
+              </div>
+              <div class="footer__content_item col-2">
+                <h2>49 Comments</h2>
+                <h1>Go to comments</h1>
+              </div>
+            </div>
+            <div class="footer__content_mobile col-4">
+              <div class="footer__content_item col-2">
+                <h2>Published</h2>
+                <h1>Nov 11, 2018</h1>
+              </div>
+              <div class="footer__content_item col-2">
+                <h2>Updated</h2>
+                <h1>Nov 17, 2018</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
