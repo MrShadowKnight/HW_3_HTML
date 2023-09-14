@@ -9,6 +9,9 @@
   color: #000;
   text-decoration: none;
 }
+.header__menu ul li a:hover {
+  color: #ff0000;
+}
 main {
   margin-top: 50px;
 }
